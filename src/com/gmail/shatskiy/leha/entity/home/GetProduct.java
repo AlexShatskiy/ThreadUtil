@@ -32,7 +32,7 @@ public class GetProduct implements Runnable {
 				stock.wait();
 			} else {
 				stock.getElement(element);
-				System.out.println("Корабль забрал: " + element + " | на складе: " + stock.thereIs);
+				System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: С‹РІР°С‹РІР°" + element + " | пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: " + stock.thereIs);
 				stock.notifyAll();
 			}
 		}
